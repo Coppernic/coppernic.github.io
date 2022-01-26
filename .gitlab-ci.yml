@@ -1,0 +1,29 @@
+image: node:latest
+
+# allow caching for faster deployment
+cache:
+  paths:
+    - node_modules/
+    - public/
+    - .cache/
+
+build:
+  stage: build
+  script:
+    - yarn install
+    - yarn run build
+  except:
+    - master
+    - build
+
+pages:
+  stage: deploy
+  script:
+    - yarn install
+    - yarn build:gitlab
+  artifacts:
+      paths:
+        - public
+  only:
+    - master
+    - build
