@@ -24,14 +24,15 @@ What is a keyboard wedge?
 
 A keyboard wedge is an application that can acquire data and send it directly in the keyboard buffer, just as if it was typed on a virtual keyboard.
 
-Coppernic's wedge applications add a deeper integration capability by using Android intent in order to send reader's events (successful read or read failure).
+Coppernic's wedge applications add a deeper integration capability by using Android intents in order to send reader's events (successful read or read failure).
 
 
 iCLass settings
 --------------
 
-iCLass Settings allows confuring wedge for the Sound, Timeout and so on...
-Settings screen is composed of four sections :
+iCLass Settings allows confuring wedge parameters including the Sound, Timeout and so on...
+The Settings screen is composed of four sections :
+
   - Service
   - Scan
   - Keyboard wedge
@@ -40,44 +41,44 @@ Settings screen is composed of four sections :
 
 ![](/img/application/iclass_settings.png) ![](/img/application/iclass_settings_2.png)
 
+1. Service
 
-1.Service
-   - Enable service : you can start or stop the service with this option.
+   - Enable service: you can start or stop the service with this option.
    - Hid iClass Service startup boot : when it is enabled, the service will start
-   automatically when the device boot.
-   - On/off reader for each scan : when enabled, it will power off reader after scanning
-   (either for bad or good read). It will save battery, but can be a little bit longer
-   to read as you will need to power on the reader every time.
+      automatically when the device boot.
+   - On/off reader for each scan: when enabled, it will power off reader after scanning
+      (either for bad or good read). It will save battery, but can be a little bit longer
+      to read as you will need to power on the reader every time.
 
+2. Scan
 
- 2.Scan
   - Sound : play a sound after a good or bad scan.
   - Display : display an icon while scanning.
   - Timeout : allow setting time in seconds while the device is trying to read a tag.
 
+3. Keyboard Wedge
 
- 3.Keyboard Wedge
-  - Enable Keyboard : when enabled, it will send result to the keyboard buffer. It is still broadcasting Intents.
+  - Enable Keyboard : when enabled, it will send the result to the keyboard buffer. It is still broadcasting Intents.
   - Scan Enter : add a carriage return of the data reader.
   - Data Send : you can choose either between card number and facility code to send to the keyboard buffer.
   - Facility code : depending on the card you want to read, card number will be different if card has a facility code or not.
 
+4. Reader configuration
 
-  4.Reader configuration
    - Hid Card configuration : allows using an HID card configuration. You need to present and hold the card front of the antenna until the configuration is finished.
 
 
 iClass scan
 ---------
 
- This application just start a scan to read an iClass/LF prox card.
- You can use it remapping this application to on (or more) of the 3 programmable button. You can do it on the device in Settings > Remap key & shortcut.
+ This application just starts a scan to read an iClass/LF prox card.
+ You can use it by remapping this application to on (or more) of the 3 programmable button. You can do it on the device in Settings > Remap key & shortcut.
 
 
 Using iClass Wedge with intents in your application
 ---------------------------------
 
-- For this example, Coppernic Core library is used. You must declare it in build.gradle.
+- For this example, the Coppernic Core library is used. You must declare it in build.gradle.
 
 ``` groovy
 // At project level

@@ -13,7 +13,7 @@ Repository
 
 Coppernic's libs are stored in [nexus](https://nexus.coppernic.fr).
 
-On your `build.gradle` file add a repository:
+In your `build.gradle` file add a repository:
 
 ```groovy
 repositories {

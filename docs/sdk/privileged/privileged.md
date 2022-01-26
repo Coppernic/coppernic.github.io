@@ -3,16 +3,16 @@ Privileged library
 
 ## Motivation
 
-Privileged service makes available certain APIs which are in protected access. These APIs of the Android framework need the application to
-be system in order to be accessible.
+Privileged service makes available certain APIs that are in protected access. These APIs of the Android framework require the application to
+be a system app in order to be accessible.
 In some cases, these APIs need to be accessible by a standard application.
-This service is still protecting access by verifying signature of calling application.
+This service is still protecting access by verifying the signature of the calling application.
 
-Privileged library makes communication with Privileged service easier.
+Privileged library makes the communication with Privileged service easier.
 
 ## Requirements
 
-You need to have `Privileged Extension` application installed on device. This application is available on CopperApps.
+You need to have  the`Privileged Extension` application installed on the device. This application is available on CopperApps.
 
 ## Download
 
@@ -45,7 +45,7 @@ dependencies {
 }
 ```
 
-You can also bind SLF4J to timber. In this case please use this dependency
+You can also bind SLF4J to timber. In this case, use this dependency
 
 ```groovy
 dependencies {
@@ -59,8 +59,8 @@ To activate verbose logging, please add this into your code :
 LogDefines.setVerbose(true);
 ```
 
-Sometimes, it can have log for profiling, in this case, to activate them please add
-this in code :
+Sometimes, it can have log for profiling, in this case, to activate them, add
+this in the code :
 
 ```java
 LogDefines.setProfile(true);

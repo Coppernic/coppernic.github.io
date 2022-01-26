@@ -9,10 +9,10 @@ Operating System update policy
 Security update policy for Android
 ---------------
 
-Coppernic combines the latest security patch and submits for approval to Google twice a year.
-These updates are correlated with update given by Google to [aosp project](https://source.android.com/). They
+Coppernic combines the latest security patches and submits for approval to Google twice a year.
+These updates are correlated with the updates of the Google to [aosp project](https://source.android.com/). They
 are considered as *Major Release*.
-In the meantime, Coppernic can provide intermediary version with bug fixes if need be.
+In the meantime, Coppernic can provide intermediary versions with bug fixes if needed.
 
 There are two kinds of updates:
 
@@ -28,6 +28,6 @@ Coppernic gives support for developing on devices during the whole lifetime of c
 System Applications
 -------------------
 
-OS signature keys are private to Coppernic and are not provided for security reason.
+OS signature keys are private to Coppernic and are not provided for security reasons.
 
 If you want to develop system applications, then you need to send your application to our [support center](http://support.coppernic.fr) for signature.

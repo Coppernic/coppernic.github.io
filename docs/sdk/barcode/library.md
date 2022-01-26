@@ -1,7 +1,7 @@
 CpcBarcode library
 ==================
 
-CpcBarcode is a library to control barcode reader on Coppernic's devices.
+CpcBarcode is a library to control the barcode reader on Coppernic's devices.
 
 > For C-One and C-five :
 > Old documentation [here](https://github.com/Coppernic/BarcodeSample/blob/release/1.0/readme.md)
@@ -76,7 +76,7 @@ dependencies {
 Barcode reader
 --------------
 
-Barcode readers currently supported are :
+Currently supported Barcode readers are:
 
  - Opticon mdi3100
  - Honeywell n6603 decoded
@@ -118,12 +118,12 @@ Barcode readers currently supported are :
 Power Management
 ----------------
 
-To use power management, please go to [Power Documentation](https://developer.coppernic.fr/#//sdk/core/power)
+For power management, please go to [Power Documentation](https://developer.coppernic.fr/#//sdk/core/power)
 
 Permissions
 -----------
 
-Before starting development on your application with the Barcode API, you should make sure your manifest has the appropriate declarations
+Before starting development on your application with the Barcode API, you should make sure your manifest has the appropriate permission declarations
 to allow use of camera hardware when required and other related features.
 
 ```xml
@@ -263,7 +263,7 @@ InstanceListener<BarcodeReader> {
 
 ### Connector
 
-Connector is a special kind of reader. It is connecting to Barcode Service to get an instance of reader.
+A Connector is a special kind of reader. It connects to the Barcode Service to get an instance of reader.
 Here is how to get one:
 
 
@@ -316,5 +316,5 @@ InstanceListener<BarcodeReader> {
 
 Service is automatically configuring reader timeout to infinite.
 As soon as the barcode service starts (when you disconnect from connector)
-timeout settings will change. If you need to handle a specific timeout,
+the timeout settings will change. If you need to handle a specific timeout,
 then you need to configure it each time you get the connector instance.

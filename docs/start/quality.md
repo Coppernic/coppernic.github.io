@@ -7,25 +7,22 @@ Quality
 
 ## Generalities
 
-While developping your application on our device, please follow guidelines
-from google :
+While developing your application on our device, please follow the guidelines from Google :
 
 [Core App Quality](https://developer.android.com/docs/quality-guidelines/core-app-quality)
 
-Please also read google document about
+We also recommend reading the Google document about
 [Battery Life Optimization](https://developer.android.com/topic/performance/power)
 
 ## Peripherals and power management
 
-Peripheral power management is realized by your application. Power consumption on peripherals might decrease device battery life, especially when application is not used and has an impact in sleep mode.
-Please make sure that when screen is turned off or when operator is leaving
-your application, then all peripherals are turned off.
+Peripheral power management has to be managed by your application. Power consumption on peripherals might decrease device battery life, especially when the application is not used, and has an impact in sleep mode.
+Please make sure all peripherals are turned off when screen is turned off or when the operator is leaving.
 
 ## RFID
 
-Looking for a card (Hunting) can be power consuming. Please implement every
-strategies that are fine for you to decrease time where RFID reader is in use.
+Looking for a card (Hunting) can be power consuming. We recommend accommodating your business or peripheral interaction logic to have a scheme where the RFID reader is the least turned on and in use.
 
 For instance, during hunt time, RF field can be up during 200ms and then
-turned off during 800ms. These settings ensure that user experience
+turned off during 800ms. These settings ensure that the user experience
 will not be affected and preserve battery life.

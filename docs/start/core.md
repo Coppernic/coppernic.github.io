@@ -21,7 +21,7 @@ dependencies {
 }
 ```
 
- * Last versions of libs can be found in [repo](https://nexus.coppernic.fr/#browse/browse).
+ * Last versions of libs can be found in this [repo](https://nexus.coppernic.fr/#browse/browse).
  * `implementation` is a key work of Android gradle plugin 3.x.x, if you are using an older plugin, consider using `compile` instead.
 
 HDK

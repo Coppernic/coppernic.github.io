@@ -38,7 +38,7 @@ Coppernic products are:
 
 All our samples are hosted on [Github](https://github.com/Coppernic) and are open source ([license](/start/License.md)).
 
-## Gettings help
+## Getting help
 
 - [Support center](https://support.coppernic.fr/index.php)
 - [Coppernic's website](https://www.coppernic.fr/en/support-en/)

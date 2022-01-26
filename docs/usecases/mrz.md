@@ -3,7 +3,7 @@
 On devices that do not embed physical MRZ reader, camera and an external SDK can be used
 to achieve MRZ recognition.
 
-Coppernic works with Regula Forensics to read MRZ lines on passport. We have
+Coppernic works with Regula Forensics to read MRZ lines on passports. We have
 successfully embedded Regula's SDK into applications running on Coppernic's devices.
 
 You can contact our [Support center](https://support.coppernic.fr/index.php)

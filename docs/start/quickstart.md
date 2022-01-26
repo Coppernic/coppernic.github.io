@@ -5,7 +5,7 @@ sidebar_position: 1
 Getting started
 ===============
 
-On Coppernic's Android products, a service is installed that allow user application to perform special tasks on device. On first generation
+On Coppernic's Android products, a service is installed that allows user application to perform special tasks on device. On first generation
 of Coppernic's products it is called `CpcSystemServices`, on second generation, it is called `CoreServices`.
 
 **First generation products**
@@ -24,6 +24,6 @@ If there is no `CpcSystemServices` or `CoreServices`, then Coppernic's samples w
 
 These applications are available on [CopperApps](copperapps).
 
-Once Services app is installed, [samples](https://github.com/Coppernic) can work.
+Once the `Services` app is installed, [samples](https://github.com/Coppernic) can work.
 
 Now, let's see how to add Coppernic's libs on your [build](build).

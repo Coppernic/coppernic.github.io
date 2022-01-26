@@ -7,9 +7,9 @@
 
 This API allows calling application to configure time on Android device.
 
-This API is protected. Application shall be in list of authorised application in
-privileged service. Application can also send an API key if it is not in this list.
-API key is given by Coppernic dev team and shall stay secret.
+This API is protected. The application should be in the list of authorized applications in
+the privileged service. The application can also send an API key if it is not in this list. The
+API key is given by Coppernic dev team and should stay secret.
 
 **Getting TimeConnector object**
 

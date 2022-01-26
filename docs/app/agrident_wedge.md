@@ -31,7 +31,7 @@ Coppernic's wedge applications add a deeper integration capability by using Andr
 
 Agrident settings
 --------------
-Agrident Settings allows configuring wedge for the Sound, Timeout and so on...
+Agrident Settings allows configuring the wedge parameters including the Sound, Timeout and so on...
 
 
 ![](/img/application/agrident_settings.png)
@@ -41,7 +41,7 @@ Agrident Settings allows configuring wedge for the Sound, Timeout and so on...
  - Scan Timeout: allows setting time in seconds while the device is trying to read a tag.
  - Agrident Service startup boot: when enabled, the service will start automatically when the device boots.
  - Continuous Read: reads continuously until service is stopped or screen turns off.
- - Keyboard Wedge: when enabled, it will send result to the keyboard buffer. It is still broadcasting Intents.
+ - Keyboard Wedge: when enabled, it will send the result to the keyboard buffer. It is still broadcasting Intents.
  - Scan Enter: adds a carriage return of the data read in keyboard buffer.
  - Remove leading 0: Remove 0 from the first data sent.
 
@@ -49,7 +49,7 @@ Agrident Settings allows configuring wedge for the Sound, Timeout and so on...
 Agrident Wedge Scan
 ---------
  This application just starts a scan to read an LF tag.
- You can use it remapping this application to one (or more) of the 3 programmable buttons. You can do it on the device in Settings > Remap key & shortcut.
+ You can use it by remapping this application to one (or more) of the 3 programmable buttons. You can do it on the device in Settings > Remap key & shortcut.
 
 
  Using Agrident Wedge as a regular keyboard wedge
@@ -62,7 +62,7 @@ Agrident Wedge Scan
  Using Agrident Wedge with Intents.
  ---------------------------------
 
- - For this example, Coppernic Utility library is used. You must declare it in build.gradle:
+ - For this example, the Coppernic Utility library is used. You must declare it in build.gradle:
 
  ``` groovy
  // At project level

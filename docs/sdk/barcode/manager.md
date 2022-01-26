@@ -4,7 +4,7 @@ Barcode Manager
 > For C-One and C-five :
 > Old documentation [here](https://github.com/Coppernic/ScanSample/blob/1.0.0/README.md)
 
-API to use barcode scanner through Barcode Manager service.
+The API to use barcode scanners through Barcode Manager service.
 
 There are 2 ways to trigger a barcode reading:
 
@@ -16,9 +16,9 @@ There are 2 ways to trigger a barcode reading:
 - C-One² and C-One² e-ID
 - IDPlatform
 
-This API is almost the same that the old one. The main differences is that for *C-One* and *C-five* devices,
-`barcode service` is hosted inside `CpcSystemServices` application. For *C-One²* familly and *ID Platform*, `barcode service`
-is hosted inside `Barcode Manager` application. `applicationId` is different for these apps so
+This API is almost the same that the old one. The main differences include the fact that for *C-One* and *C-five* devices,
+the `barcode service` is hosted inside `CpcSystemServices` application. For the *C-One²* familly and the *ID Platform*, the `barcode service`
+is hosted inside `Barcode Manager` application. The `applicationId` is different for these apps so
 `Intents` used for controlling barcode reader have different target compoenent names.
 
 For instance, on *C-One²* we call `Intent.setPackage()` like this :
@@ -33,7 +33,7 @@ on *C-five*, we call `Intent.setPackage()` like this :
 intent.setPackage(OsHelper.getSystemServicePackage(context));
 ```
 
-## Remap a physical button to barcode reading
+## Remap a physical button to trigger barcode reading
 
 In Android settings application, go to remap key & shortcuts (may change on different devices), then remap a key to SCAN or Barcode Scan
  (device dependent).
@@ -49,7 +49,7 @@ In every cases, you shall declare a permission to be able to communicate with th
 
 - **Permissions**
 
-You shall declare `fr.coppernic.permission.BARCODE` permission into your manifest:
+You should declare the `fr.coppernic.permission.BARCODE` permission into your manifest:
 
 ```xml
     <uses-permission android:name="fr.coppernic.permission.BARCODE" />
@@ -179,7 +179,7 @@ public void startScan(){
 }
 ```
 
-When reader is in continuous mode, it shall be stopped explicitly, **even if a barcode
+When the reader is in continuous mode, it should be stopped explicitly, **even if a barcode
 is read**. Otherwise, it is stopped automatically by a read or a timeout.
 
 #### Stop a scan
@@ -290,9 +290,9 @@ It is also available on [CopperApps](/start/copperapps.md).
 #### General
 
 * Scan sound: play a sound when scan is ended or not
-* Scan display: display/hide scan indicator on screen (Set `false` to this option unless you know what you are doing)
+* Scan display: display/hide scan indicator on screen (Set this option to `false`  unless you know what you are doing)
 * Continuous mode: enable/disable continuous mode (scan until button is released or barcode is read)
-* Scan timeout: scan timeout
+* Scan timeout: The time before the reader stops if there is no scans
 * Barcode service startup at boot: enable/disable automatic barcode service start when device boot is finished
 * Keep barcode reader opened: if checked, it improves scan speed
 * Keyboard wedge: send data to input buffer in addition to intent
@@ -313,7 +313,7 @@ Allow user to enable/disable symbologies, to add suffix and prefix, to add minim
 
 ### Using CpcBarcode library
 
-To configure the service, you shall depend on **CpcBarcode** available in SDK.
+To configure the service, you should depend on **CpcBarcode** available in the SDK.
 
 ```java
 import fr.coppernic.lib.barcode.core.GlobalConfig;

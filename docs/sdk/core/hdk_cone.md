@@ -1,14 +1,14 @@
 HDK for C-One
 =============
 
-Don't known what a C-One is ? The answer is [here](https://www.coppernic.fr/prehome-mobility-fr/).
+Don't know what a C-One is ? The answer is [here](https://www.coppernic.fr/prehome-mobility-fr/).
 
-HDK API is designed with [RxJava2](https://github.com/ReactiveX/RxJava).
+The HDK API is designed with [RxJava2](https://github.com/ReactiveX/RxJava).
 
 Prerequisites
 -------------
 
-For first generation of products, app **CpcSystemServices** at version 2.1.0 or above needs to be installed on device.
+For the first generation of products, the app **CpcSystemServices** at version 2.1.0 or above needs to be installed on the device.
 For [second generation](/start/quickstart.md) **CoreService** app must be installed instead of **CpcSystemServices**.
 Please contact [Coppernic Support](mailto://support@coppernic.fr) in case of difficulties.
 
