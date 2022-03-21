@@ -28,8 +28,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/Coppernic/coppernic.github.io/',
+          editUrl: 'https://github.com/Coppernic/coppernic.github.io/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -47,8 +46,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           alt: 'Site Logo',
           src: 'img/coppernic.jpg'
         },
-        items: [
-          {
+        items: [{
             type: 'doc',
             docId: 'intro',
             position: 'left',
@@ -64,20 +62,16 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
       },
       footer: {
         style: 'dark',
-        links: [
-          {
+        links: [{
             title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
+            items: [{
+              label: 'Tutorial',
+              to: '/docs/intro',
+            }, ],
           },
           {
             title: 'Community',
-            items: [
-              {
+            items: [{
                 label: 'Coppernic',
                 href: 'https://www.coppernic.fr',
               },
@@ -93,8 +87,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           },
           {
             title: 'More',
-            items: [
-              {
+            items: [{
                 label: 'Blog',
                 to: '/blog',
               },
@@ -110,6 +103,11 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+      },
+      algolia: {
+        apiKey: '26c29a9bb1e09f515f8a42fc80b7af13',
+        indexName: 'copperdoc',
+        appId: 'AMB7ZQIRRB',
       },
     }),
 });
