@@ -7,13 +7,13 @@ CopperApps
 
 ![](/img/copperapps.png)
 
-We are using [CopperApps](https://github.com/Coppernic/coppernic.github.io/releases) application to deliver our samples, services and other apps like tools.
+We are using [CopperApps](https://copperapps.coppernic.fr/copperapps.apk) application to deliver our samples, services and other apps like tools.
 This application is based on [F-Droid](https://f-droid.org/)
 
 Download
 --------
 
-CopperApps build by Coppernic is available for download on [Github](https://github.com/Coppernic/coppernic.github.io/releases) or directly from the web browser of your PDA as an APK through https://coppernic.fr/copperapps.apk.
+CopperApps build by Coppernic is available for download on [CopperApps home page](https://copperapps.coppernic.fr/copperapps.apk) or directly from the web browser of your PDA as an APK through https://copperapps.coppernic.fr/copperapps.apk.
 
 It embeds Coppernic's repository:
 
