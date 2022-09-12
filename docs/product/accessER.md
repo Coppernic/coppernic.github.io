@@ -1,4 +1,4 @@
-AccessER
+Access-ER & Access-ER e-ID
 ======
 
 ![](/img/devices/access_er_rfid-eid.jpg)
@@ -18,7 +18,19 @@ Access ER is equiped with a 2D barcode scanner. It can read both 1D and 2D symbo
 Key mapping
 -----------
 
-Access ER has 2 programmable buttons that can be managed using API. It is possible to remap a virtual key or an application on each of them:
+Access ER has 3 programmable buttons that can be managed using API. It is possible to remap a virtual key or an application on each of them:
 
 
 - [Documentation](/sdk/core/mapping.md)
+
+<!---
+RFID
+----
+
+ [HID](/docs/product/access/hid)
+
+Fingerprint
+----
+
+- Coming soon...
+-->
