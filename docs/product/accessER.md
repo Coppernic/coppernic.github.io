@@ -1,7 +1,7 @@
-Access
+AccessER
 ======
 
-![](/img/devices/access_er_rfid.png)
+![](/img/devices/access_er_rfid-eid.jpg)
 
 Specifications
 --------------
@@ -13,7 +13,7 @@ Barcode Scanning
 
 Access ER is equiped with a 2D barcode scanner. It can read both 1D and 2D symbologies:
 
-- [Barcode](barcode/manager.md)
+- [Barcode](/sdk/barcode/manager.md)
 
 Key mapping
 -----------
@@ -21,4 +21,4 @@ Key mapping
 Access ER has 2 programmable buttons that can be managed using API. It is possible to remap a virtual key or an application on each of them:
 
 
-- [Documentation](core/mapping.md)
+- [Documentation](/sdk/core/mapping.md)
