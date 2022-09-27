@@ -21,6 +21,9 @@ In CCID mode, communication are done using a PC/SC library. Coppernic publishes 
 
 For reader management, documentation and sample code can be found [here](https://github.com/Coppernic/PcscSample).
 
+After connecting to an HID Card, PcscSample can be used to send a command "Get PACS data" :
+FF70076B07A005A10380010400
+
 For advanced usage of the 5127CK, you may need to contact HID to have access on protected documentation. Contact Coppernic support for more details.
 
 #### Switch mode
