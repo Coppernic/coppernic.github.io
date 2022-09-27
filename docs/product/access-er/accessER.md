@@ -23,12 +23,13 @@ Access ER has 3 programmable buttons that can be managed using API. It is possib
 
 - [Documentation](/sdk/core/mapping.md)
 
-<!---
 RFID
 ----
 
- [HID](/docs/product/access/hid)
+- [HID](/docs/product/access-er/hid)
 
+
+<!---
 Fingerprint
 ----
 
