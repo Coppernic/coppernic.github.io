@@ -29,9 +29,13 @@ RFID
 - [HID](/docs/product/access-er/hid)
 
 
-<!---
+ASK
+----
+
+- [ASK](/docs/product/access-er/ask)
+
+
 Fingerprint
 ----
 
-- Coming soon...
--->
+- [Fingerprint](/docs/product/access-er/fingerprint)
