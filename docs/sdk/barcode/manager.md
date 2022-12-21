@@ -15,9 +15,10 @@ There are 2 ways to trigger a barcode reading:
 
 - C-One² and C-One² e-ID
 - IDPlatform
+- Access and Access-ER
 
 This API is almost the same that the old one. The main differences include the fact that for *C-One* and *C-five* devices,
-the `barcode service` is hosted inside `CpcSystemServices` application. For the *C-One²* familly and the *ID Platform*, the `barcode service`
+the `barcode service` is hosted inside `CpcSystemServices` application. For the *C-One²* familly, the *ID Platform*, the *Access* family, the `barcode service`
 is hosted inside `Barcode Manager` application. The `applicationId` is different for these apps so
 `Intents` used for controlling barcode reader have different target compoenent names.
 
@@ -280,6 +281,7 @@ Intent's extras are :
      - C-One² Android 7 : `"fr.coppernic.features.barcode.conen"`
      - C-One² Android 8 : `"fr.coppernic.features.barcode.coneo"`
      - IDPlatform : `"fr.coppernic.features.barcode.idplatform"`
+     - Access and Access-ER : `"fr.coppernic.features.barcode.access"`
      - ...
 
 ## Configure the barcode's service
