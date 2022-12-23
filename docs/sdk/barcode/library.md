@@ -11,6 +11,7 @@ Supported devices
 
 - C-One² and C-One² e-ID
 - IDPlatform
+- Access and Access-ER
 
 This API is almost the same that the old one. Only `groupId` of dependencies is changing.
 Old one is `"fr.coppernic.sdk.barcode:CpcBarcode:3.5.0"`
@@ -83,6 +84,12 @@ Currently supported Barcode readers are:
  - Honeywell n6003 undecoded
  - ad002
 
+### Access / Access-ER
+
+| Barcode reader  | Port        | Baudrate |
+| --------------- | ----------- | -------- |
+| n6603_undecoded | camera      | na       |
+
 ### C-One
 
 | Barcode reader  | Port        | Baudrate |
@@ -118,7 +125,7 @@ Currently supported Barcode readers are:
 Power Management
 ----------------
 
-For power management, please go to [Power Documentation](https://developer.coppernic.fr/#//sdk/core/power)
+For power management, please go to [Power Documentation](/sdk/core/power.md)
 
 Permissions
 -----------
