@@ -3,7 +3,7 @@ Key Mapping
 
 ## API from CpcCore 1.8.0 (package `mapping`)
 
-This API is made to work on all Coppernic's products (Currently C-One, C-five and C-One²), and on all OS.
+This API is made to work on all Coppernic's products (Currently C-One, C-five, C-One² and Access), and on all OS.
 But you have to keep in mind that this API uses different internal API under the hood that can have some limitations.
 
 For instance, to get the actual mapping value on C-five, you need to have at least the OS version v20180709.
@@ -12,6 +12,8 @@ This API is fully implemented on:
 
   - C-five OS v20180928
   - C-One² OS v20180907
+  - Access-ER OS 20221101
+  - Access OS 20220716
 
 All other OS and C-One are also supported but it may have some limitation. Please test API you need and contact [Coppernic Support](mailto://support@coppernic.fr) if you need help.
 
