@@ -15,7 +15,7 @@ This API is fully implemented on:
   - Access-ER OS 20221101
   - Access OS 20220716
 
-All other OS and C-One are also supported but it may have some limitation. Please test API you need and contact [Coppernic Support](mailto://support@coppernic.fr) if you need help.
+All other new OS are also supported but it may have some limitation. Please test API you need and contact [Coppernic Support](mailto://support@coppernic.fr) if you need help.
 
 ### Get a `Mapper` object
 
@@ -95,20 +95,7 @@ mapper.close();
 ```
 ### Special Case for Barcode
 
-#### C-One²
-
-API is stable from OS v20180907
+#### C-One²an C-five
 
 - Map a key to BARCODE_SCAN: `mapper.mapKey(P1, MapperUtils.getBarcodeMappingKeyCode())`
 - Get the BARCODE_SCAN value: `assertThat(mapper.getKeyMapping(P1), is(MapperUtils.getBarcodeMappingKeyCode()));`
-
-#### C-five
-
-- OS v20171117:
-  - `mapper.getKeyMapping()` is not working well.
-- OS v20180709:
-  - Map a key to BARCODE_SCAN: `mapper.mapKey(P1, 293)`
-  - Get the BARCODE_SCAN value: `assertThat(mapper.getKeyMapping(P1), is(KeyEvent.KEYCODE_BUTTON_MODE));`
-- OS v20180928
-  - Map a key to BARCODE_SCAN: `mapper.mapKey(P1, MapperUtils.getBarcodeMappingKeyCode())`
-  - Get the BARCODE_SCAN value: `assertThat(mapper.getKeyMapping(P1), is(MapperUtils.getBarcodeMappingKeyCode()));`
