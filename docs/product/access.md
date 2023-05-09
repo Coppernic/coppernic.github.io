@@ -31,12 +31,20 @@ Optional 'Pistol Grip'
 
 The Pistol Grip is generating a key event when trigger is pressed and can be accessed from any application using standard Android Key Event management [here](https://developer.android.com/reference/android/view/KeyEvent.Callback).
 
-The code from any activity will be :
+The event trigger code is defined in Coppernic SDK
+
+You can add Coppernic's dependencies in your build:
+```groovy
+dependencies {
+    implementation 'fr.coppernic.sdk.core:CpcCore:2.2.4'
+```
+
+And the code in activity will be :
 
 ```java
     @Override
     public boolean onKeyDown(int keyCode, KeyEvent keyEvent) {
-        if (keyCode == ) {
+        if (keyCode == OsHelper.getTriggerKey()) {
            // do action
            return false;
         }
@@ -47,4 +55,4 @@ The code from any activity will be :
 :warning: Avoid using "Scan display" option in BarcodeManager, as event will be raised as key down when icon is displayed.
 :warning: Like with a keyboard key event, several key down event will be generated if the finger remains pressed on the pistol trigger without releasing.
 
-A sample which demonstrates use of Pistol trigger to activate barcode scan is available [here](https://github.com/Coppernic/ScanSample)
+A sample which demonstrates the use of a Pistol trigger to activate the barcode scan is available [here](https://github.com/Coppernic/ScanSample)
