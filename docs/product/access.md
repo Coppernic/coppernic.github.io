@@ -22,3 +22,29 @@ Access has 2 programmable buttons that can be managed using API. It is possible 
 
 
 - [Documentation](/sdk/core/mapping.md)
+
+
+Optional 'Pistol Grip'
+-----------
+
+![](/img/devices/access-pistol-grip.png)
+
+The Pistol Grip is generating a key event when trigger is pressed and can be accessed from any application using standard Android Key Event management [here](https://developer.android.com/reference/android/view/KeyEvent.Callback).
+
+The code from any activity will be :
+
+```java
+    @Override
+    public boolean onKeyDown(int keyCode, KeyEvent keyEvent) {
+        if (keyCode == ) {
+           // do action
+           return false;
+        }
+        return super.onKeyDown(keyCode, keyEvent);
+    }
+```
+
+:warning: Avoid using "Scan display" option in BarcodeManager, as event will be raised as key down when icon is displayed.
+:warning: Like with a keyboard key event, several key down event will be generated if the finger remains pressed on the pistol trigger without releasing.
+
+A sample which demonstrates use of Pistol trigger to activate barcode scan is available [here](https://github.com/Coppernic/ScanSample)
