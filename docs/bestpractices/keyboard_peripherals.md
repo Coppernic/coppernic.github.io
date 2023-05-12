@@ -12,7 +12,7 @@ About keyboard Peripherals
 Some peripherals available on Coppernic devices are managed as keyboard-type device by Android OS.
 It concerns some barcode reader, RFID reader, MRZ reader.
 
-A device like [HID reader on Access-ER](/docs/product/access-er/hid) can act as CCID device, or as a keyboard wedge, depending its configuration.
+A device like [HID reader on Access-ER](/docs/product/access-er/hid) can act as CCID device, or as a keyboard wedge, depending on its configuration.
 
 Impact on Android activity life cycle
 ------------------------
