@@ -21,7 +21,7 @@ By default an Android Activity treats a keyboard plug as a configuration change.
 
 https://developer.android.com/guide/topics/resources/runtime-changes#HandlingTheChange
 
-This leads to Activity being recreated when a keyboard peripheral is power on or powered off, and can seem to a bad user experience, or seems there is a bug.
+This leads to Activity being recreated when a keyboard peripheral is power on or powered off, and may seem to be a bad user experience, or look like a bug.
 
 To avoid this, it is possible to disable Activity recreation by using android:configChanges in the manifest of the Activity.
 
