@@ -15,6 +15,7 @@ Access RFD40 is equiped with RFD40 UHF RFID reader. Documentation is avalaible o
 
 Zebra sample code adapted with Coppernic SDK can be found [here](https://gitlab.com/Coppernic/Android/External/123rfid_mobile). Access to this sample is limited, please contact [Coppernic Support](mailto://support@coppernic.fr)
 
-Gun
+Optional 'Pistol Grip'
 -----------
-:warning: to be defined
+
+A second Pistol grip is available for developers. Documentation is available [here](/docs/product/access#optional-pistol-grip).
