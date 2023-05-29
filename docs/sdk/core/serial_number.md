@@ -1,7 +1,7 @@
 Serial Number for Android 10 or higher
 ====================
 
-Starting in Android 10, some restictions have been introduced to retrieve serial number end other sensitive information.
+As of Android 10, Google have introduced some restrictions disallowing normal applications to retrieve sensitive information including the serial number.
 You can have more details on these restictions here :
 https://developer.android.com/about/versions/10/privacy/changes#non-resettable-device-ids
 
