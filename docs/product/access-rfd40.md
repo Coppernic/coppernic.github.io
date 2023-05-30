@@ -5,7 +5,7 @@ Access RFD40
 
 SDK
 ------------
-CoreService v2.2.4 or higer needs to be installed for this device.
+CoreService v2.2.4 or higher needs to be installed on this device.
 
 Specifications
 --------------
