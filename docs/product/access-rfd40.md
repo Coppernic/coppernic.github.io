@@ -3,6 +3,10 @@ Access RFD40
 
 ![](/img/devices/access-rfd40.png)
 
+SDK
+------------
+CoreService v2.2.4 or higher needs to be installed on this device.
+
 Specifications
 --------------
 
