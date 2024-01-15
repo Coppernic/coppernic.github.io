@@ -39,3 +39,9 @@ Fingerprint
 ----
 
 - [Fingerprint](/docs/product/access-er/fingerprint)
+
+
+SmartCard
+----
+
+- [Smartcard](/docs/product/access-er/smartcard)
