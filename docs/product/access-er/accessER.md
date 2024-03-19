@@ -18,7 +18,7 @@ Access ER is equiped with a 2D barcode scanner. It can read both 1D and 2D symbo
 Key mapping
 -----------
 
-Access ER has 3 programmable buttons that can be managed using API. It is possible to remap a virtual key or an application on each of them:
+Access and Access-ER has 3 programmable buttons that can be managed using API. It is possible to remap a virtual key or an application on each of them:
 
 
 - [Documentation](/sdk/core/mapping.md)
